@@ -1,3 +1,47 @@
+Introduction:
+This project consists of creating an API that will use a recommendation model for Steam, a multinational video game platform based on machine learning. The goal is to create a video game recommendation system for users. The API provides an intuitive interface that allows users to retrieve information for the recommendation engine and data about large or frequent events.
+
+Herramientas Utilizadas
+
+Pandas
+matplotlib
+Nampi
+Seaborn
+Word cloud
+NLTK
+Yuvicorn
+Render
+FastAPI
+Python
+Scikit-Learn
+Paso paso:
+1. ETL
+We implement the ETL (Extract, Transform and Load) process in the form of extracted data from different objects, then the transformations required for the project, and ultimately loading for analysis and subsequent use. Las herramientas primordiales use fueron python, pandas, sklear and FastApi
+
+2. API Deployment
+If the API uses the FastAPI Python module, create 5 functions that can be retrieved:
+
+def PlayTimeGenre(genero : str ): You can jump to multiple hours of play for general playback. Input example: random
+def UserForGenre(genero : str ): You should pass the user who has accumulated more hours of work for the total dado and list of accumulated hours ago. Example input: action
+def UsersRecommend(año: int): Check out the top 3 games MÁS recommends to users for the past year. (reviews.recommend = True and positive/neutral comments) Example input: 2012
+def UsersNotRecommend( formerly : int ): Check out the top 3 MENOS games recommended by users for the previous day. (reviews.recommend = False and negative comments) Example input: 2009
+def sentiment_analysis (formerly: int): Starting from last year, you will develop a list with candidad of user registries that will be categorized with sentiment analysis. Example input: 2014
+We will now implement the deployment of this API using Render. Using fuerons: Uvicorn, Render, FastAPI
+
+3. EDA
+We implement an EDA (exploratory data analysis) process that explores and analyzes comprehensive data to generate insights, identify patrons, trends and connections, and make fundamental decisions based on the information obtained. Multiple points can be obtained to create a new ML model. Functions used: Numpy, Pandas, Matplotlib, Seaborn, Wordcloud, NLTK.
+
+4. Machine learning model
+We implement a machine learning model to summarize game recommendations, use algorithms and technical tools similar to academic and scientific training, searching for personalized recommendations and accurate background knowledge for each user and preferences. If this is a point-to-point recommendation system:
+
+def recomendacion_juego(id de producto): By including the product id ('id), you will get a list of 5 recommended games similar to the one you added.
+Usage example: 70 If this is a user recommendation system:
+
+def recomendacion_usuario(id de usuario): By including the user id ('user_id'), you will get a list of 5 recommended games for your user. User phone number: 76561198030567998.
+Using the library: Scikit-Learn with libraries: TfidfVectorizer, Linear_kernel, Cosine_similarity. Additional consultations and API.
+
+Links:
+
 # PI_ML_OPS
 # <h1 align=center> **PROYECTO INDIVIDUAL Nº1** </h1>
 
